@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-primary;
+}
+table{
+    width: 100%;
+}
+table th{
+    font-weight: normal;
+}
+table th, table td{
+    padding: 8px 15px;
+}
+table tbody tr{
+    border-top: 1px solid #ddd;
+}
+table th{
+    @apply text-primary;
+    @apply font-bold;
+    @apply uppercase;
+    @apply text-xs;
+    @apply cursor-pointer;
+}
+table td{
+    @apply text-sm;
+    @apply leading-4;
+    @apply text-gray-600;
+}
